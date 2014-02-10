@@ -13,6 +13,8 @@ Running the app
 The project builds and deploys to an embedded Jetty server using the [xsbt-web-plugin](https://github.com/JamesEarlDouglas/xsbt-web-plugin).
 To start the application, cd to the *spray-taco* directory, start `sbt`, and then execute `>container:start`
 
+To import into Eclipse you must first open `sbt` then execute `>eclipse`.  This builds the Eclipse project files.
+
 
 Request catalog
 ---------------
